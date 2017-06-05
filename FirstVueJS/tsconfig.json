@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es5",
+    "moduleResolution": "node",
+    "rootDir": "app",
+    "outDir": "assets/js",
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "pretty": true,
+    "types": [ "jquery", "bootstrap" ],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true
+  },
+  "compileOnSave": true
+}

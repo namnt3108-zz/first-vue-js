@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-12" id="main">
+        <hello-component></hello-component>
+    </div>
+</div>
+
+@section scripts
+{
+    <script type="text/x-template" id="hello-component-template">
+        <div>            
+            <input v-model="question" />
+            <p>{{ answer }}</p>
+            <button v-on:click="onClick">Click!</button>
+        </div>    
+    </script>
+
+    <script>
+        requirejs(["site"], function () {
+            requirejs(["app/Home/main"]);
+        })
+    </script>
+}

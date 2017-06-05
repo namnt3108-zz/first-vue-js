@@ -1,0 +1,17 @@
+{
+  "name": "first-vue-js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "requirejs": "^2.3.3",
+    "vue": "^2.3.3",
+    "vue-class-component": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^3.3.33",
+    "@types/jquery": "^2.0.46",
+    "typescript": "^2.4.0-dev.20170605"
+  }
+}
